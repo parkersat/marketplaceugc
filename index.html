@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript">
+        var rjvqD_fvb_OgFljc = { "it": 4474023, "key": "04075" };
+    </script>
+    <script src="https://d2v7l2267atlz5.cloudfront.net/075093d.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Marketplace</h1>
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search">
+                </div>
+                <!-- <button class="buy-button">Buy Robux</button> -->
+                <!-- <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">8</span>
+                </div> -->
+            </div>
+        </header>
+
+        <div class="item-grid" id="itemGrid">
+            <!-- Item 1 -->
+            <div class="item-card" data-name="lazy eye">
+                <div class="item-image">
+                    <img src="sword.webp" alt="Lazy Eye">
+                </div>
+                <div class="item-details">
+                    <h3>Headless Sword</h3>
+                    <div class="price">
+                        <i><img style="width: 15px;" src="/robux.png" alt=""></i> FREE
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="item-card" data-name="red cape">
+                <div class="item-image">
+                    <img src="/cutewavyhair.webp" alt="Red Cape">
+                </div>
+                <div class="item-details">
+                    <h3>Cute Wavy Hair</h3>
+                    <div class="price">
+                        <i><img style="width: 15px;" src="/robux.png" alt=""></i> FREE
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="item-card" data-name="conquest">
+                <div class="item-image">
+                    <img src="/dominus.webp" alt="Conquest">
+                </div>
+                <div class="item-details">
+                    <h3>Dominus</h3>
+                    <div class="price">
+                        <i><img style="width: 15px;" src="/robux.png" alt=""></i> FREE
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="item-card" data-name="friendly grin">
+                <div class="item-image">
+                    <img src="/scarface.webp" alt="Friendly Grin">
+                </div>
+                <div class="item-details">
+                    <h3>Serious Scar Face</h3>
+                    <div class="price">
+                        <i><img style="width: 15px;" src="/robux.png" alt=""></i> FREE
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Item 6 -->
+            <div class="item-card" data-name="invincible">
+                <div class="item-image">
+                    <img src="/singjun.webp" alt="Invincible">
+                </div>
+                <div class="item-details">
+                    <h3>Sung Jin Woo</h3>
+                    <div class="price">
+                        <i><img style="width: 15px;" src="/robux.png" alt=""></i> FREE
+                    </div>
+                </div>
+            </div>
+            <div class="item-card" data-name="invincible">
+                <div class="item-image">
+                    <img src="/cutewavyhair.webp" alt="Invincible">
+                </div>
+                <div class="item-details">
+                    <h3>Super Fluffy hair</h3>
+                    <div class="price">
+                        <i><img style="width: 15px;" src="/robux.png" alt=""></i> FREE
+                    </div>
+                </div>
+            </div>
+            <div class="item-card" data-name="invincible">
+                <div class="item-image">
+                    <img src="/chrollo.webp" alt="Invincible">
+                </div>
+                <div class="item-details">
+                    <h3>Chrollo</h3>
+                    <div class="price">
+                        <i><img style="width: 15px;" src="/robux.png" alt=""></i> FREE
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Item Detail Overlay -->
+    <div id="itemOverlay" class="item-overlay">
+        <div class="overlay-content">
+            <div class="overlay-close">&times;</div>
+            <div class="overlay-grid">
+                <div class="overlay-image">
+                    <img id="overlayImage" src="/placeholder.svg" alt="Item Image">
+                </div>
+                <div class="overlay-details">
+                    <h2 id="overlayTitle"></h2>
+                    <div class="overlay-divider"></div>
+                    <div class="price-section">
+                        <div class="price-label">Price</div>
+                        <div class="price-value">
+                            <span id="overlayPrice">FREE</span>
+                        </div>
+                    </div>
+                    <div class="overlay-buttons">
+                        <button class="buy-now-button" onclick="_du()">Get for Free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
